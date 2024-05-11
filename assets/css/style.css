@@ -115,7 +115,7 @@
  .home {
    position: relative;
    width: 100%;
-   min-height: 100vh;
+   min-height: 120vh;
    display: grid;
    grid-template-columns: 0.2fr 1fr 1fr;
    align-items: center;
@@ -180,12 +180,13 @@
    background: crimson;
  }
 
+ 
 
  .about-container {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
    gap: 1rem;
-   margin-top: 2rem;
+   margin-top: 1rem;
  }
 
  .about-img img {
@@ -288,7 +289,10 @@
    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
    gap: 100px;
    margin-top: 2rem;
-   margin-left: 25px;
+   place-items: center;
+   margin-left: 20px;
+   margin-right: 20px;
+
  }
 
  .services-box {
