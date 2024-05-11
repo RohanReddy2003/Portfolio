@@ -134,6 +134,7 @@
  .home-text span {
    font-size: var(--medium-font);
    font-weight: 500;
+   color: crimson;
  }
 
  .home-text h1 {
@@ -285,10 +286,9 @@
  .services-content {
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-   justify-content: center;
-   gap: 50px;
+   gap: 100px;
    margin-top: 2rem;
-   margin-right: 8px;
+   margin-left: 25px;
  }
 
  .services-box {
