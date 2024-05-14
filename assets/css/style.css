@@ -108,7 +108,7 @@
  }
 
  #darkmode {
-   font-size: 22px;
+   font-size: 25px;
    cursor: pointer;
  }
 
@@ -192,6 +192,7 @@
  .about-img img {
    width: 80%;
    border-radius: 0.9rem;
+   margin-top: 10%;
  }
 
  .about-text p {
@@ -290,14 +291,12 @@
    gap: 100px;
    margin-top: 2rem;
    place-items: center;
-   margin-left: 20px;
-   margin-right: 20px;
 
  }
 
  .services-box {
    padding: 20px;
-   width: 400px;
+   width: 320px;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -312,7 +311,7 @@
  }
 
  .services-box img {
-  width: 400px;
+  width: 320px;
  }
 
  .services-box h3 {
@@ -388,6 +387,7 @@
    text-transform: uppercase;
    letter-spacing: 1px;
    margin-left: 35%;
+   margin-top: 6%;
    border-bottom: 2px solid var(--main-color);
  }
 
